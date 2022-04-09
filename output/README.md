@@ -1,8 +1,9 @@
-# gsgs
-  ![license badge!](https://img.shields.io/badge/license-MIT-blue)
+# SDFSD
+
+![license badge!](https://img.shields.io/badge/license-GNU_AGPLv3-blue)
 
 ## Description
-fsdf
+SDFF
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,25 +14,25 @@ fsdf
 - [Questions](#questions)
     
 ## Installation
-sfs
+sdff
 
 ## Usage
-sfsdf
+fsdf
 
 ## License
-
+GNU_AGPLv3 
 
 ## Contributing
-ssfsd
+sdf
 
 ## Tests
-sdfs
+sdf
 
 ## Questions
 
 For more information please see:
 
-https://github.com/sdfs
+https://github.com/sdf
 
 For questions please contact:
 

@@ -40,8 +40,14 @@ const questions = [
         name: 'projectLicense',
         message: 'Which license?',
         choices: [
-            "MIT", 
-            "Mozilla"
+            "MIT",
+            "GNU_AGPLv3",
+            "GNU_GPLv3",
+            "GNU_LGPLv3", 
+            "Mozilla_Public_2.0",
+            "Apache_2.0",
+            "Boost_Software_1.0",
+            "The_Unlicense"
         ]
     },
     {
