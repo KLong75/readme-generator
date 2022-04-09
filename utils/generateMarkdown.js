@@ -11,12 +11,21 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-/*function renderLicenseLink(license) {
+function renderLicenseLink(license) {
   if (license === 'None') {
     return ``
-  } else {
-    return ``
-}*/
+  } else if (license === 'MIT') {
+    return `https://spdx.org/licenses/MIT.html`;
+  } else if (license === 'Mozilla_Public_2.0') {
+    return `https://spdx.org/licenses/MPL-2.0.html`;
+  } else if (license === 'Apache_2.0') {
+    return `https://www.apache.org/licenses/`;
+  }else if (license === 'Boost_Software_1.0') {
+    return `https://spdx.org/licenses/BSL-1.0.html`;
+  }else if (license === 'The_Unlicense') {
+    return `https://unlicense.org/`
+  }
+}
 
 // Returns the license section of README
 // If there is no license, return an empty string
@@ -701,6 +710,8 @@ ${data.installationInstructions}
 ${data.usageInformation}
 
 ## License
+${renderLicenseLink(data.projectLicense)}
+
 ${renderLicenseSection(data.projectLicense)}
 
 ## Contributing
