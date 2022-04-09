@@ -26,17 +26,29 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.projectTitle}
 
+## License
+${renderLicenseBadge(data.projectLicense)}
+
 ## Description
 ${data.projectDescription}
     
 ## Installation
+${data.installationInstructions}
 
+## Usage
+${data.usageInformation}
 
+## Contributing
+${data.contributionGuidelines}
 
-## License
-${renderLicenseBadge(data.projectLicense)}
+## Tests
+${data.testInstructions}
 
+## Questions
 
+For more information please contact: 
+${data.gitHubUsername}
+${data.emailAddress}
 `;
 };
 
