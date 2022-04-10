@@ -685,7 +685,7 @@ else if (license === 'The_Unlicense') {
  }
 }
 
-// TODO: Create a function to generate markdown for README
+// Generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.projectTitle}
 

@@ -67,19 +67,15 @@ const questions = [
 
 // Initialize app by calling init()
 function init() {
-    inquirer
+  inquirer
   .prompt(questions)
   .then((answers) => {
-    console.log(answers);
-
+    //console.log(answers);
     const generatedString = generateMarkdown(answers);
-
-    console.log(generatedString);
-    
+    //console.log(generatedString);
     fs.writeFile('./output/README.md', generatedString, () => {
         console.log("README successfully generated!")
     })
-
   })
   .catch((error) => {
     if (error.isTtyError) {
