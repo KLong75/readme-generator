@@ -60,12 +60,7 @@ const questions = [
     },
   ];
 
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-
-// Initialize app by calling init()
+// Write README file
 function init() {
   inquirer
   .prompt(questions)
