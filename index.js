@@ -23,7 +23,7 @@ const questions = [
     {
         type: 'input',
         name: 'usageInformation',
-        message: 'Provide instructions and examples for using your project. Include screenshots as needed.'
+        message: 'Provide instructions for using your project.'
     },
     {
         type: 'input',
