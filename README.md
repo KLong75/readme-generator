@@ -2,8 +2,11 @@
 
 ![license badge!](https://img.shields.io/badge/license-MIT-blue)
 
-## Video Demonstration
+## Video Demonstration / Screenshots
 https://drive.google.com/file/d/1nAcl0TQaAh6_bHsG_vp5ORcJE_Zz6cFc/view
+![Screenshot (132)](https://user-images.githubusercontent.com/98487770/162641599-e7ab79b0-ebf3-4bc2-b064-3b4d3273325d.png)
+![Screenshot (133)](https://user-images.githubusercontent.com/98487770/162641608-484a7bbd-f479-4a55-b82b-689c4499a6b9.png)
+
 
 ## Description
 The README Generator quickly and easily creates a profesionalcomprehensive README file based on user input prompted from the command line, for use in your GitHub repository with any coding project.
@@ -62,3 +65,4 @@ https://github.com/KLong75
 For questions please contact:
 
 [kevinjlong75@gmail.com](mailto:kevinjlong75@gmail.com)
+
