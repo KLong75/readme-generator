@@ -65,7 +65,7 @@ function init() {
   inquirer
   .prompt(questions)
   .then((answers) => {
-    //console.log(answers);
+    console.log(answers);
     const generatedString = generateMarkdown(answers);
     //console.log(generatedString);
     fs.writeFile('./output/README.md', generatedString, () => {
