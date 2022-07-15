@@ -17,6 +17,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'deployedUrl',
+        message: 'Enter the URL of your deployed application.'
+    },
+    {
+        type: 'input',
         name: 'installationInstructions',
         message: 'What are the steps required to install your project?'
     },

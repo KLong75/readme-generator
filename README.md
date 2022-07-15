@@ -23,7 +23,7 @@ The README Generator quickly and easily creates a profesionalcomprehensive READM
  The application requires node js and the inquirer npm module.
 
 ## Usage
-Navigate to the pplication through the command line. Once you are there run the application by entering "node index.js". Your README file will be generated in the "output" folder.
+Navigate to READme generator through the command line. Once you are there run the application by entering "node index.js". Your README file will be generated in the "output" folder.
 
 ## License
 https://spdx.org/licenses/MIT.html

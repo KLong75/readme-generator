@@ -694,6 +694,11 @@ ${renderLicenseBadge(data.projectLicense)}
 ## Description
 ${data.projectDescription}
 
+## URL of Deployed Application
+${data.deployedUrl}
+
+## Screenshots of Application
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
