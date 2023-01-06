@@ -692,14 +692,18 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.projectLicense)}
 
 ## Description
+
 ${data.projectDescription}
 
 ## URL of Deployed Application
-${data.deployedUrl}
+
+<${data.deployedUrl}>
 
 ## Screenshots of Application
 
+
 ## Table of Contents
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -708,27 +712,32 @@ ${data.deployedUrl}
 - [Questions](#questions)
     
 ## Installation
+
 ${data.installationInstructions}
 
 ## Usage
+
 ${data.usageInformation}
 
 ## License
-${renderLicenseLink(data.projectLicense)}
+
+<${renderLicenseLink(data.projectLicense)}>
 
 ${renderLicenseSection(data.projectLicense)}
 
 ## Contributing
+
 ${data.contributionGuidelines}
 
 ## Tests
+
 ${data.testInstructions}
 
 ## Questions
 
 For more information please see:
 
-https://github.com/${data.gitHubUsername}
+<https://github.com/${data.gitHubUsername}>
 
 For questions please contact:
 
